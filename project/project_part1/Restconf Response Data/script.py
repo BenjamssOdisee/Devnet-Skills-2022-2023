@@ -7,7 +7,7 @@ print("=> Creating request URL")
 api_scheme = "https://"
 api_authority = "192.168.56.101" # change ip address if necessary
 api_path = "/restconf/data/ietf-interfaces:interfaces"
-# api_url = "https://192.168.56.101/restconf/data/ietf-interfaces:interfaces"
+api_url = "https://192.168.56.101/restconf/data/ietf-interfaces:interfaces"
 api_url = api_scheme + api_authority + api_path
 print(api_url)
 print('------2-------')
